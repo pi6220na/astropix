@@ -14,7 +14,7 @@ var baseURL = 'https://api.nasa.gov/planetary/apod';
 
 function apodRequest(callback, random) {
 
-    // callback({message: 'Not really an error'});
+    //callback({message: 'Not really an error'});
     // Uncomment the line above to force the error page to display.
 
     var queryParam = {};

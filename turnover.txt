@@ -1,0 +1,11 @@
+Astropix on Github:
+
+https://github.com/pi6220na/astropix
+
+
+Astropix on Heroku:
+
+https://dashboard.heroku.com/apps/protected-peak-55328
+
+https://protected-peak-55328.herokuapp.com/fetch_picture
+
