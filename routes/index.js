@@ -15,6 +15,15 @@ router.get('/fetch_picture', function(req, res, next){
 
 
     console.log('RANDOM? '  + req.query.random );
+
+    /*
+    for (item in req) {
+        console.log('item = ' + item);
+        console.log('req(item) = ' + req[item]);
+    }
+    */
+
+
       apod(function(err, apod_data){
 
           if (err) {
