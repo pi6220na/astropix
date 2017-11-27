@@ -26,6 +26,8 @@ router.post('/add', function(req, res, next){
         }
     }
 
+
+
     if (!isFav) {
         // Add all the info about an image to req.session.favorites
         req.session.favorites.push(req.body);
